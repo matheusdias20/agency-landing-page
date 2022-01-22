@@ -1,0 +1,101 @@
+@media screen and (max-width: 1420px) {
+    .navbar li a {
+        font-size: 1.125rem;
+    }
+
+    .main-title {
+        font-size: 3.3rem;
+    }
+
+    .main-description {
+        font-size: 1.1rem;
+    }
+
+    .next-level-text h1 {
+        font-size: 2rem;
+    }
+
+    .description-text {
+        margin-top: .2rem;
+    }
+
+    .recruiter-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .recruiter-text p {
+        font-size: 1rem;
+    }
+
+    .latest-card {
+        margin-right: 1.125rem;
+    }
+
+    .latest-card:nth-last-child(1) {
+        margin-right: 0;
+    }
+
+} 
+
+
+@media screen and (max-width: 960px) {
+
+   * {
+        
+    }
+
+    .clients h1,
+    .next-level-text h1,
+    .recruiter-text h1 {
+        text-align: center;
+    }
+    
+    .recruiter-text p {
+        text-align: center;
+    }
+
+    .clients-img img {
+        width: 600px;
+    }
+
+    .next-level,
+    .schedule,
+    .recruiter-main,
+    .testemonials-cards,
+    .latest-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recruiter-cards {
+       justify-content: center;
+    }
+
+    .next-level-img img,
+    .recruiter-img img {
+        width: 500px;
+    }
+
+    .latest-card {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .latest-card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .latest-card h2 {
+        text-align: center;
+    }
+
+    .latest-text {
+        justify-content: center;
+    }
+
+    .section-footer {
+        flex: 1 1;
+    }
+}
