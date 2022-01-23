@@ -125,6 +125,11 @@
 
     .next-level-img img,
     .recruiter-img img {
+        margin-right: 0;
+    }
+
+    .next-level-img img,
+    .recruiter-img img {
         width: 500px;
     }
 
