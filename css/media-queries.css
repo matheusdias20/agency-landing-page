@@ -41,8 +41,58 @@
 
 } 
 
-
 @media screen and (max-width: 1024px) {
+    *{
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 3rem;
+    }
+
+    .img-form {
+        width: 600px;
+    }
+
+    .header{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .main-img img {
+        width: 550px;
+    }
+
+    .img-creative {
+        bottom: 80px;
+        left: 350px;
+    }
+
+    .next-level-img img{
+        width: 450px;
+        margin-right: 5rem;
+    }
+
+    .recruiter-img img {
+        width: 450px;
+        margin-right: 20rem;
+    }
+
+    .latest-card img {
+        width: 250px;
+    }
+
+    .latest-text p {
+        font-size: .7rem;
+    }
+
+    .latest-card h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 986px) {
 
 
     .clients h1,
@@ -719,11 +769,13 @@
 
     .next-level-description h2 {
         font-size: 1.125rem;
+        margin-top: 0;
     }
 
     .next-level-description p {
         font-size: .9rem;
     }
+
 
     .business .business-paragraphy {
         font-size: 1rem;
