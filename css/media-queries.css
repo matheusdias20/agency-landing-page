@@ -1,4 +1,8 @@
 @media screen and (max-width: 1420px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar li a {
         font-size: 1.125rem;
     }
@@ -38,11 +42,8 @@
 } 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
 
-   * {
-        
-    }
 
     .clients h1,
     .next-level-text h1,
@@ -58,6 +59,7 @@
         width: 600px;
     }
 
+    .main,
     .next-level,
     .schedule,
     .recruiter-main,
@@ -97,5 +99,771 @@
 
     .section-footer {
         flex: 1 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 2rem;
+    }
+
+    .img-form {
+        display: none;
+    }
+
+    .logo span {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+    }
+
+    .navbar li{
+        display: none;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .7rem 1.5rem;
+        background-color: var(--primary-white);
+    }
+
+    .main-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-img img {
+        width: 400px;
+        margin-top: 2rem;
+    }
+
+    .main-text{
+        margin-top: 2rem;
+    }
+
+    .main-title {
+        font-size: 3.3rem;
+        text-align: center;
+        line-height: 70px;
+    }
+ 
+    .main-description {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .main-btn {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-started {
+        padding: 1rem;
+    }
+
+    .btn-started a i {
+        padding: .1rem;
+    }
+
+
+    .btn-video a {
+        vertical-align: center;
+    }
+
+    .btn-video a i {
+        padding: .3rem;
+    }
+
+    .clients h1 {
+        font-size: 2.8rem;
+    }
+
+    .clients-img img {
+        width: 550px;
+    }
+
+    .next-level-description {
+        display: flex;
+        justify-content: center;
+    }
+
+    .next-level-img img {
+        width: 450px;
+        margin-bottom: 1rem;
+    }
+
+    .next-level-text h1 {
+        font-size: 2rem;
+    }
+
+    .next-level-description img {
+        width: 100px;
+    }
+
+    .next-level-description h2 {
+        margin-top: .4rem;
+        font-size: 1.5rem;
+    }
+
+    .next-level-description p {
+        font-size: .9rem;
+    }
+
+    .business .business-paragraphy {
+        font-size: 1.3rem;
+    }
+
+    .business .cards {
+        margin-right: 0;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .recruiter-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .recruiter-text p {
+        font-size: 1.3rem;
+    }
+
+    .recruiter-cards .recruiter-card {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .recruiter-img img {
+        width: 450px;
+    }
+
+    .testemonials {
+        padding-top: 2.5rem;
+    }
+    .testemonials h3{
+        font-size: 1rem;
+    }
+
+    .testemonials h1 {
+        font-size: 2.5rem;
+    }
+
+    .testemonials-card {
+        margin-bottom: 1.5rem;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .testemonials-cards {
+        padding-bottom: 0;
+    }
+
+    .testemonials-text h2 {
+        font-size: 1rem;
+    }
+
+    .testemonials-text p {
+        font-size: .3rem;
+    }
+
+    .testemonials-cards p {
+        font-size: .855rem;
+    }
+
+    .latest h1 {
+        font-size: 2.5rem;
+    }
+
+    .latest p {
+        font-size: 1.2rem;
+    }
+
+    .latest-cards {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .latest-card img {
+        width: 500px;
+    }
+
+    .latest-text p {
+        font-size: 1.3rem;
+    }
+
+    .latest-card h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter h3 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter h1 {
+        font-size: 2.5rem;
+    }
+
+    form input {
+        width: 550px;
+        padding: 1rem 1rem;
+    }
+
+    form input::placeholder {
+        font-size: .8rem;
+    }
+
+    .btn-newsletter {
+        padding: 1rem .8rem;
+        font-size: .6rem;
+    }
+
+    .footer {
+        padding-top: 2.5rem;
+    }
+
+    .section-footer {
+        flex-direction: column;
+    }
+    
+    .section-footer-1 h2 {
+        text-align: center;
+    }
+
+    .section-footer-1 p {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .social-medias {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-footer-2 {
+        text-align: center;
+    }
+
+    .section-footer-2 h3 {
+        margin-top: 2rem;
+    }
+
+    .section-footer i:nth-last-child(1) {
+        margin-right: 0;
+    }
+
+    .footer_copy {
+        font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    *{
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 2rem;
+    }
+
+    .logo span {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .7rem 1.5rem;
+        background-color: var(--primary-white);
+    }
+
+    .main-img img {
+        width: 380px;
+        margin-top: 2rem;
+    }
+
+    .img-form{
+        display: none;
+    }
+
+    .main-text{
+        margin-top: 2rem;
+    }
+
+    .main-title {
+        font-size: 2.8rem;
+        text-align: center;
+        line-height: 70px;
+    }
+ 
+    .main-description {
+        text-align: center;
+    }
+    
+    .main-btn {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-started {
+        padding: 1rem;
+    }
+
+    .btn-started a i {
+        padding: .1rem;
+    }
+
+
+    .btn-video a {
+        vertical-align: center;
+    }
+
+    .btn-video a i {
+        padding: .3rem;
+    }
+
+    .clients h1 {
+        font-size: 2rem;
+    }
+
+    .clients-img img {
+        width: 400px;
+    }
+
+    .next-level-img img {
+        width: 400px;
+        margin-bottom: 1rem;
+    }
+
+    .next-level-text h1,
+    .business h1  {
+        font-size: 2rem;
+    }
+
+    .next-level-description img {
+        width: 100px;
+        margin-right: 2rem;
+    }
+
+    .next-level-description h2 {
+        margin-top: .4rem;
+        font-size: 1.125rem;
+    }
+
+    .next-level-description p {
+        font-size: .9rem;
+    }
+
+    .business .business-paragraphy {
+        font-size: 1rem;
+    }
+
+    .business .cards {
+        margin-right: 0;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .recruiter-text h1 {
+        font-size: 2rem;
+    }
+
+    .recruiter-text p {
+        font-size: 1rem;
+    }
+
+    .recruiter-cards {
+        flex-direction: column;
+    }
+
+    .recruiter-cards .recruiter-card {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .recruiter-img img {
+        width: 400px;
+    }
+
+    .testemonials {
+        padding-top: 2.5rem;
+    }
+    .testemonials h3{
+        font-size: 1rem;
+    }
+
+    .testemonials h1 {
+        font-size: 2.5rem;
+    }
+
+    .testemonials-card {
+        margin-bottom: 1.5rem;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .testemonials-cards {
+        padding-bottom: 0;
+    }
+
+    .testemonials-text h2 {
+        font-size: 1rem;
+    }
+
+    .testemonials-text p {
+        font-size: .3rem;
+    }
+
+    .testemonials-cards p {
+        font-size: .855rem;
+    }
+
+    .latest h1 {
+        font-size: 2.5rem;
+    }
+
+    .latest p {
+        font-size: 1.2rem;
+    }
+
+    .latest-cards {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .latest-card img {
+        width: 300px;
+    }
+
+    .latest-text p {
+        font-size: 1rem;
+    }
+
+    .latest-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter h3 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter h1 {
+        font-size: 2.5rem;
+    }
+
+    form input {
+        width: 350px;
+        padding: 1rem 1rem;
+    }
+
+    form input::placeholder {
+        font-size: .8rem;
+    }
+
+    .btn-newsletter {
+        padding: 1rem .8rem;
+        font-size: .6rem;
+    }
+
+    .footer {
+        padding-top: 2.5rem;
+    }
+
+    .section-footer {
+        flex-direction: column;
+    }
+    
+    .section-footer-1 h2 {
+        text-align: center;
+    }
+
+    .section-footer-1 p {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .social-medias {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-footer-2 {
+        text-align: center;
+    }
+
+    .section-footer-2 h3 {
+        margin-top: 2rem;
+    }
+
+    .section-footer i:nth-last-child(1) {
+        margin-right: 0;
+    }
+
+    .footer_copy {
+        font-size: .9rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+    *{
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 2rem;
+    }
+
+    .logo span {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .7rem 1.5rem;
+        background-color: var(--primary-white);
+    }
+
+    .main-img img {
+        width: 300px;
+        margin-top: 2rem;
+    }
+
+    .img-form{
+        display: none;
+    }
+
+    .main-text{
+        margin-top: 2rem;
+    }
+
+    .main-title {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 70px;
+    }
+
+    .main-btn {
+        flex-direction: column;
+    }
+
+    .main-description {
+        text-align: center;
+    }
+
+    .btn-started {
+        margin: 0 auto 2rem auto;
+        text-align: center;
+    }
+
+    .btn-started a i {
+        padding: .1rem;
+    }
+
+    .btn-started .bx {
+        display: inline!important;
+    }
+
+    .btn-video a {
+        vertical-align: center;
+    }
+
+    .btn-video a i {
+        padding: .3rem;
+    }
+
+    .clients h1 {
+        font-size: 2rem;
+    }
+
+    .clients-img img {
+        width: 400px;
+    }
+
+    .next-level-img img {
+        width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .next-level-text h1,
+    .business h1  {
+        font-size: 1.7rem;
+    }
+
+    .next-level-description img {
+        width: 70px;
+        margin-right: 4rem;
+    }
+
+    .next-level-description h2 {
+        font-size: 1.125rem;
+    }
+
+    .next-level-description p {
+        font-size: .9rem;
+    }
+
+    .business .business-paragraphy {
+        font-size: 1rem;
+    }
+
+    .business .cards {
+        margin-right: 0;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .recruiter-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .recruiter-text p {
+        font-size: 1rem;
+    }
+
+    .recruiter-cards {
+        flex-direction: column;
+    }
+
+    .recruiter-cards .recruiter-card {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .recruiter-img img {
+        width: 300px;
+    }
+
+    .testemonials h3{
+        font-size: 1rem;
+    }
+
+    .testemonials h1 {
+        font-size: 2.2rem;
+    }
+
+    .testemonials-card {
+        padding-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 2px solid var(--secondary-white);
+    }
+
+    .testemonials-cards {
+        padding-bottom: 0;
+    }
+
+    .testemonials-text h2 {
+        font-size: 1rem;
+    }
+
+    .testemonials-text p {
+        font-size: .3rem;
+    }
+
+    .testemonials-cards p {
+        font-size: .855rem;
+    }
+
+    .latest h1 {
+        font-size: 2rem;
+    }
+
+    .latest p {
+        font-size: 1rem;
+    }
+
+    .latest-card img {
+        width: 200px;
+    }
+
+    .latest-text p {
+        font-size: .7rem;
+    }
+
+    .latest-card h2 {
+        font-size: 1.1rem;
+    }
+
+    .newsletter h3 {
+        font-size: 1rem;
+    }
+
+    .newsletter h1 {
+        font-size: 2rem;
+    }
+
+    form input {
+        width: 280px;
+        padding: 1rem 1rem;
+    }
+
+    form input::placeholder {
+        font-size: .8rem;
+    }
+
+    .btn-newsletter {
+        padding: 1rem .8rem;
+        font-size: .6rem;
+    }
+
+    .footer {
+        padding-top: 2.5rem;
+    }
+
+    .section-footer {
+        flex-direction: column;
+    }
+    
+    .section-footer-1 h2 {
+        text-align: center;
+    }
+
+    .section-footer-1 p {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .social-medias {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-footer-2 {
+        text-align: center;
+    }
+
+    .section-footer-2 h3 {
+        margin-top: 2rem;
+    }
+
+    .section-footer i:nth-last-child(1) {
+        margin-right: 0;
+    }
+
+    .footer_copy {
+        font-size: .9rem;
     }
 }
